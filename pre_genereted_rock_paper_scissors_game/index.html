@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <main>
+        <section id="score-board">
+            <span id="player-score" aria-label="Player score">0</span>
+            <span id="computer-score" aria-label="Computer score">0</span>
+        </section>
+        <section id="game-area">
+            <button data-move="rock" aria-label="Rock">Rock</button>
+            <button data-move="paper" aria-label="Paper">Paper</button>
+            <button data-move="scissors" aria-label="Scissors">Scissors</button>
+        </section>
+        <section id="result-display" aria-live="polite"></section>
+        <button id="reset-button">Reset Game</button>
+    </main>
+</body>
+</html>
